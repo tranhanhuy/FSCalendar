@@ -77,7 +77,6 @@ final class DayModeVC: UIViewController {
     }
     
     @objc func toggleTouched() {
-        
         calendar.setScope(calendar.scope == .month ? .week : .month, animated: true)
     }
 }
